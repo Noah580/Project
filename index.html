@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <nav class="primary-nav">
+            <ul class="primary-ul">
+                <li><i class="fa fa-home"></i><a href="">Welcome</a></li>
+                <li><i class="fa-regular fa-address-card"></i><a href="">About</a></li>
+                <li><i class="fa-solid fa-diagram-project"></i><a href="">Project</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu">
+            <i data-title="Protection" class="fa-solid fa-shield"></i>
+            <i data-title="Shop" class="fa-solid fa-bag-shopping"></i>
+            <i data-title="Reglage" class="fa-solid fa-gear"></i>
+        </div>
+
+        <div class="profil">
+            <i class="fa fa-user"></i>
+            <ul class="user">
+                <li class="i1"><i class="fa fa-user "></i>Profil</li>
+                <li class="i2"><i class="fa-solid fa-money-bill"></i>Points</li>
+                <p class="separator"></p>
+                <li class="i3"><i class="fa-solid fa-headset"></i>Direct</li>
+                <li class="i4"><i class="fa-solid fa-user-group"></i>Amis</li> 
+                <li class="i4" id="btn-dark"><i class="fa-solid fa-moon"></i>Theme</li> 
+                <p class="separator2"></p>
+                <li class="i5"><i class="fa-solid fa-right-from-bracket"></i>Logout</li>
+            </ul>
+        </div>
+
+
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"><input type="search" placeholder="search..."></i>
+            <button class="search">search</button>
+        </div>
+
+    </header>
+
+    <main>
+        <p class="blinking-text">I am blinking!</p>
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">Front</div>
+                <div class="card-back">Back</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-icon">
+            <h3 class="title">Social Contact</h3>
+            <i class="fa-brands fa-instagram" data-title ="instagram"></i>
+            <i class="fa-brands fa-twitter" data-title="twitter"></i>
+            <i class="fa-brands fa-github" data-title="github"></i>
+            <i class="fa-regular fa-envelope" data-title="Mail"></i>
+        </div>
+        <div class="contact">
+            <h3 class="title">Contact Me</h3>
+            <form action="">
+                <input type="text" name="prenom" id="prenom" placeholder="prenom">
+                <input type="text" name="nom" id="nom" placeholder="nom">
+                <textarea name="message" id="message" placeholder="Contactez moi"></textarea>
+                <input type="file" name="file" id="file">
+                <button type="submit" id="btn">Envoyer</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="asset/js/index.js"></script>
+</body>
+</html>
